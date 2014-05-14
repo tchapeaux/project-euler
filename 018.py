@@ -48,5 +48,3 @@ for i, row in enumerate(tri[:-1]):
                 current_max = candidateLength
 
 print(current_max)
-
-
