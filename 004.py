@@ -8,7 +8,11 @@ def is_palindrom(word):
             return False
     return True
 
-assert(is_palindrom("cacaacac"))
+assert(is_palindrom(""))
+assert(is_palindrom("1"))
+assert(is_palindrom("zz"))
+assert(is_palindrom("bob"))
+assert(is_palindrom("baobabbaboab"))
 assert(is_palindrom("9229"))
 assert(is_palindrom("KAYAKKAYAKKAYAKKAYAK"))
 assert(is_palindrom("12321"))
@@ -16,6 +20,8 @@ assert(is_palindrom("12321"))
 assert(not is_palindrom("12345"))
 assert(not is_palindrom("AZERTYXTREZA"))
 assert(not is_palindrom("1234221"))
+assert(not is_palindrom("aA"))
+
 
 n1 = 999
 n2 = 999
